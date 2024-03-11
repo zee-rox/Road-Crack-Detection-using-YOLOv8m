@@ -17,3 +17,13 @@ Datasets:
 To train the YOLOv8m model effectively, the project leverages two publicly available road crack datasets:
 1. Roboflow -  https://universe.roboflow.com/road-crack-project/road-crack-detection-combined-dataset
 2. Roboflow - https://universe.roboflow.com/search?q=class%3Ahelp
+
+
+Results:
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% 6/6 [00:06<00:00,  1.03s/it]
+                   all         82        248      0.633      0.589       0.61      0.309
+             Crocodile         82        103       0.77      0.495      0.658      0.341
+          Longitudinal         82         71      0.529      0.549      0.484      0.171
+               Pothole         82         25      0.783       0.68      0.752      0.515
+            Transverse         82         49       0.45      0.633      0.546      0.211
